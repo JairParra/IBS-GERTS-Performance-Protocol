@@ -1,0 +1,13 @@
+# Agent Framework & Documentation
+.github/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
