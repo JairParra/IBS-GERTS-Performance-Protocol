@@ -27,12 +27,6 @@ This is a static site with no build step or package installation required.
 2. Open the project folder in your editor.
 3. Open [index.html](index.html) in a browser.
 
-### Recommended structure
-
-- [index.html](index.html) contains the semantic HTML markup.
-- [css/styles.css](css/styles.css) contains all extracted styles.
-- [js/main.js](js/main.js) contains all extracted client-side behavior.
-
 ## Notes
 
 The refactor keeps the page content and rendered experience intact while separating concerns into dedicated HTML, CSS, and JavaScript files for easier maintenance.
