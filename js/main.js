@@ -49,7 +49,7 @@ const MENUS = [
     days:[
       { name:'Monday', loc:'WFH', train:'Weights + MT', meals:{
         b:'3 scrambled eggs with spinach and Italian herbs. 2 slices sourdough (2 S.T.E.P.S.).',
-        s1:'Post-Weights: Wheat Protein/Creatine Shake. 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
+        s1:'Post-Weights: Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
         l:'Colombian Style: 120 g chicken breast, 1 medium Russell potato (2 S.T.E.P.S.), cilantro, cumin, clear broth.',
         s2:'90 g hard aged Cheddar or Parmesan + green banana.',
         d:'Post-MT Asian Bowl: 120 g salmon, 1 cup white vermicelli (3 S.T.E.P.S.), zucchini, light soy sauce.' }},
@@ -57,11 +57,11 @@ const MENUS = [
         b:'180 ml plain Greek yogurt, 1/2 cup Blueberries, 15 ml walnuts.',
         s1:'2 hard-boiled large eggs.',
         l:'120 g salmon, 500 ml Napa cabbage & cucumber, 5 ml garlic-infused oil.',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g chicken, 500 ml roasted Chinese eggplant & bok choy.' }},
       { name:'Wednesday', loc:'Office', train:'Evening MT', meals:{
         b:'3 eggs cooked in 5 ml garlic-infused oil, 1/2 Red Papaya.',
-        s1:'Wheat Protein/Creatine Shake. 2 small kiwis.',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 2 small kiwis.',
         l:'Colombian Style: 120 g pan-seared chicken breast (seasoned with turmeric and salt), 8-12 Colombian yellow potatoes, 250 ml steamed green beans. Garnish with fresh cilantro (or substitute fresh flat-leaf parsley if unavailable).',
         s2:'90 g hard aged Cheddar or Parmesan + 15 ml almonds (or walnuts/macadamia nuts) (Pre-training).',
         d:'Post-MT Pho-Style: 120 g chicken, clear broth, lemongrass, 1 cup white vermicelli.' }},
@@ -69,11 +69,11 @@ const MENUS = [
         b:'150 g firm tofu scrambled with turmeric and green onion (green part only).',
         s1:'2 hard-boiled large eggs.',
         l:'Leftover Chicken + 1 medium Russell potato (2 S.T.E.P.S.).',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g roasted chicken (breast or leg, skinless) rubbed with cumin and oregano, 1 baked medium Russell potato, 250 ml steamed white radish drizzled with 5 ml garlic-infused oil.' }},
       { name:'Friday', loc:'WFH', train:'Weights', meals:{
         b:'3 eggs, 250 ml baby bok choy, 2 slices sourdough (2 S.T.E.P.S.).',
-        s1:'Pre-Weights: Wheat Protein/Creatine Shake. 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
+        s1:'Pre-Weights: Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
         l:'Asian Noodle Bowl: 120 g poached chicken breast in a mild lemongrass and ginger infused broth, 1 cup white rice vermicelli (3 S.T.E.P.S.), 250 ml baby bok choy. Finished with a dash of light soy sauce and green onion tops (green parts only).',
         s2:'90 g hard aged Cheddar or Parmesan + 1/2 Red Papaya.',
         d:'120 g salmon, 500 ml roasted eggplant & green beans, garlic-infused oil.' }}
@@ -81,14 +81,16 @@ const MENUS = [
     weekend:{
       sat:[
         ['Breakfast','Greek yogurt, 1/2 Mango, walnuts.'],
-        ['Snack','Protein/Creatine Shake.'],
+        ['Snack 1','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).'],
         ['Lunch','120 g grilled chicken thigh (skinless), 500 ml cucumber and radish salad tossed in 5 ml olive oil, salt, and Italian herbs.'],
+        ['Snack 2','90 g hard aged Cheddar or Parmesan + 1 green banana.'],
         ['Dinner','120 g chicken stir-fry with 1 cup white vermicelli, bean sprouts, light soy sauce.']
       ],
       sun:[
         ['Breakfast','3 eggs, sourdough (2 S.T.E.P.S.).'],
-        ['Snack','Protein/Creatine Shake.'],
+        ['Snack 1','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).'],
         ['Lunch','120 g pan-seared lean beef strip (seasoned with salt, cumin, and oregano), roasted Russell potato, grilled zucchini.'],
+        ['Snack 2','2 hard-boiled large eggs (or 15 ml walnuts if eggs were heavily consumed).'],
         ['Dinner','3-egg omelet folded with 250 ml wilted spinach, seasoned with salt and a pinch of turmeric.']
       ]
     }
@@ -98,7 +100,7 @@ const MENUS = [
     days:[
       { name:'Monday', loc:'WFH', train:'Weights + MT', meals:{
         b:'3 eggs, 250 ml zucchini, 2 slices sourdough.',
-        s1:'Wheat Protein/Creatine Shake. 1 green banana.',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1 green banana.',
         l:'Asian Noodle Bowl: 120 g chicken, 1 cup white vermicelli, bean sprouts, lemongrass, light soy sauce.',
         s2:'90 g hard aged Cheddar or Parmesan + 15 ml almonds (or walnuts/macadamia nuts).',
         d:'Post-MT: 120 g oven-baked salmon (seasoned with cumin and a pinch of salt), 250 ml roasted eggplant drizzled with 5 ml olive oil, 1 baked medium Russell potato.' }},
@@ -106,11 +108,11 @@ const MENUS = [
         b:'180 ml plain Greek yogurt + 1/2 cup Dragon fruit.',
         s1:'2 hard-boiled large eggs.',
         l:'Leftover Chicken + 8-12 Colombian yellow potatoes.',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g chicken, 500 ml Konjac noodles, bok choy, green beans.' }},
       { name:'Wednesday', loc:'Office', train:'Evening MT', meals:{
         b:'3 eggs with spinach and Italian herbs.',
-        s1:'Wheat Protein/Creatine Shake. 2 small kiwis.',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 2 small kiwis.',
         l:'120 g chicken, 1 medium Russell potato, 250 ml spinach (cumin).',
         s2:'1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis) + 15 ml walnuts (or macadamia nuts) (Pre-training).',
         d:'Post-MT Pho-Style: 120 g thinly sliced chicken breast steeped in hot clear broth, infused with lemongrass and fresh ginger slices, 1 cup white vermicelli (3 S.T.E.P.S.), Napa cabbage. Garnish with basil and green onion tops.' }},
@@ -118,11 +120,11 @@ const MENUS = [
         b:'150 g firm tofu (turmeric), 250 ml cucumber, 2 slices sourdough.',
         s1:'2 hard-boiled large eggs.',
         l:'Leftover Post-Training Soup (from Wed).',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g salmon (Italian herbs), 500 ml roasted white radish & eggplant.' }},
       { name:'Friday', loc:'WFH', train:'Weights', meals:{
         b:'3 eggs, 1/2 cup Blueberries.',
-        s1:'Wheat Protein/Creatine Shake. 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
         l:'120 g chicken, 1 medium Russell potato, 250 ml green beans.',
         s2:'90 g hard aged Cheddar or Parmesan + 2 small kiwis.',
         d:'Asian Stir-fry: 150 g firm tofu, 1 cup white vermicelli, bean sprouts, spinach, light soy sauce.' }}
@@ -130,15 +132,17 @@ const MENUS = [
     weekend:{
       sat:[
         ['Breakfast','3 eggs, spinach, sourdough.'],
-        ['Snack','Protein/Creatine Shake.'],
+        ['Snack 1','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).'],
         ['Lunch','120 g stir-fried chicken breast (using 5 ml garlic-infused oil) with lemongrass, folded into 500 ml lightly wilted Napa cabbage.'],
+        ['Snack 2','90 g hard aged Cheddar or Parmesan + 15 ml almonds.'],
         ['Dinner','150 g firm tofu baked with Italian herbs, 500 ml zucchini and eggplant.']
       ],
       sun:[
         ['Breakfast','Greek yogurt, 1/2 Mango, walnuts.'],
-        ['Snack','2 hard-boiled eggs.'],
+        ['Snack 1','2 hard-boiled eggs.'],
         ['Lunch','120 g lean beef, 8-12 Colombian yellow potatoes, spinach.'],
-        ['Dinner','Protein/Creatine Shake + 90 g hard aged Cheddar or Parmesan.']
+        ['Snack 2','1/2 Palmer Mango (or 1/2 cup Blueberries) + 15 ml macadamia nuts.'],
+        ['Dinner','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk) + 90 g hard aged Cheddar or Parmesan.']
       ]
     }
   },
@@ -147,7 +151,7 @@ const MENUS = [
     days:[
       { name:'Monday', loc:'WFH', train:'Weights + MT', meals:{
         b:'3 eggs with 250 ml bean sprouts, 2 slices sourdough.',
-        s1:'Wheat Protein/Creatine Shake. 1/2 cup Blueberries.',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1/2 cup Blueberries.',
         l:'Colombian Style: 120 g chicken, 8-12 Colombian yellow potatoes, cilantro/cumin.',
         s2:'90 g hard aged Cheddar or Parmesan + green banana.',
         d:'Post-MT Noodle Bowl: 120 g salmon, 1 cup white vermicelli, bok choy, lemongrass.' }},
@@ -155,11 +159,11 @@ const MENUS = [
         b:'180 ml plain Greek yogurt, 1/2 Red Papaya, 15 ml almonds (or walnuts/macadamia nuts).',
         s1:'2 hard-boiled large eggs.',
         l:'120 g gently poached salmon, served cold over a 500 ml crisp cucumber and white radish salad, dressed with 5 ml garlic-infused olive oil and fresh dill or Italian herbs.',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g chicken, 500 ml roasted eggplant & green beans.' }},
       { name:'Wednesday', loc:'Office', train:'Evening MT', meals:{
         b:'3 eggs, 250 ml spinach, green onion (green part).',
-        s1:'Wheat Protein/Creatine Shake. 2 small kiwis.',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 2 small kiwis.',
         l:'120 g chicken, 1 medium Russell potato, 250 ml green beans.',
         s2:'90 g hard aged Cheddar or Parmesan + 15 ml walnuts (or macadamia nuts) (Pre-training).',
         d:'Post-MT Pho-Style: 120 g chicken, clear broth, 1 cup white vermicelli, bean sprouts.' }},
@@ -167,11 +171,11 @@ const MENUS = [
         b:'180 ml plain Greek yogurt + 1/2 cup Dragon Fruit.',
         s1:'2 hard-boiled large eggs.',
         l:'Leftover Chicken + 8-12 Colombian yellow potatoes.',
-        s2:'Wheat Protein/Creatine Shake.',
+        s2:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).',
         d:'120 g salmon (Italian herbs), 500 ml roasted white radish.' }},
       { name:'Friday', loc:'WFH', train:'Weights', meals:{
         b:'3 eggs, 250 ml bok choy, 2 slices sourdough.',
-        s1:'Wheat Protein/Creatine Shake. 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
+        s1:'Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk). 1/2 Palmer Mango (or 1/2 cup Blueberries / 2 small Kiwis).',
         l:'Asian Noodle Bowl: 120 g chicken, turmeric, 1 cup white vermicelli, zucchini, light soy sauce.',
         s2:'90 g hard aged Cheddar or Parmesan + 1/2 Red Papaya.',
         d:'150 g firm tofu pressed and pan-crisped, served with 500 ml slow-roasted Chinese eggplant, finished with 5 ml garlic-infused oil and fresh basil leaves.' }}
@@ -179,14 +183,16 @@ const MENUS = [
     weekend:{
       sat:[
         ['Breakfast','Greek yogurt, 2 small kiwis, walnuts.'],
-        ['Snack','Protein/Creatine Shake.'],
+        ['Snack 1','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).'],
         ['Lunch','120 g chicken with 500 ml cucumber salad.'],
+        ['Snack 2','90 g hard aged Cheddar or Parmesan + 1/2 Red Papaya.'],
         ['Dinner','120 g chicken breast strips wok-tossed (lightly) with 500 ml crisp bean sprouts, Konjac noodles, a splash of light soy sauce, and turmeric.']
       ],
       sun:[
         ['Breakfast','3 eggs, sourdough (2 S.T.E.P.S.).'],
-        ['Snack','Protein/Creatine Shake.'],
+        ['Snack 1','Wheat Protein + 5g Creatine Shake (in almond or lactose-free skim milk).'],
         ['Lunch','120 g lean beef, 1 medium Russell potato, green beans.'],
+        ['Snack 2','2 hard-boiled large eggs.'],
         ['Dinner','3-egg omelet with 250 ml spinach.']
       ]
     }
@@ -200,7 +206,7 @@ function mealHTML(text) {
   formatted = formatted.replace(/^(Colombian Style)\s*:\s*/, '<span class="cuisine col">$1</span>');
   formatted = formatted.replace(/^(Post-Weights|Post-MT|Pre-Weights)\s*:\s*/, '<span class="ctx">$1</span>');
   formatted = formatted.replace(/\((Pre-training)\)/g, '<span class="ctx">$1</span>');
-  formatted = formatted.replace(/(Wheat Protein\/Creatine Shake|Protein\/Creatine Shake)/g, '<span class="shake">$1</span>');
+  formatted = formatted.replace(/(Wheat Protein \+ 5g Creatine Shake|Wheat Protein\/Creatine Shake|Protein\/Creatine Shake)/g, '<span class="shake">$1</span>');
   formatted = formatted.replace(/\b(pan-seared|pan-crisped|oven-baked|slow-roasted|stir-fried|wok-tossed|poached|grilled|steamed|roasted|baked)\b/g, '<span class="cook">$1</span>');
   formatted = formatted.replace(/(\d+(?:\s?[-–]\s?\d+)?\s?(?:g|ml))\b/g, '<b class="q">$1</b>');
   formatted = formatted.replace(/(\d+\s?S\.T\.E\.P\.S\.)/g, '<span class="steps">$1</span>');
